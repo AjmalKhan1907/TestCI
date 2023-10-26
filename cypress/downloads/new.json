@@ -1,0 +1,51 @@
+{
+    "handlingCompany": {
+        "name": "FAB",
+        "code": "FAB",
+        "airport": "FAB"
+    },
+    "operator": {
+        "name": "KANWAR CUSTOMER",
+        "code": "K-CUST"
+    },
+    "debtor": {
+        "name": "KANWAR CUSTOMER",
+        "code": "K-CUST"
+    },
+    "identifier": "9Z111Z",
+    "flight": {
+        "callSign": "NJ007",
+        "scheduledTime": "2023-08-02T13: 45: 00Z",
+        "airline": "NJE",
+        "destination": "EGLF",
+        "number": 5001,
+        "origin": "EHAM",
+        "repeatNumber": 0,
+        "suffix": "",
+        "registration": "KAYREG"
+    },
+    "passengers": [
+        {
+            "role": "Passenger",
+            "firstName": "CALVIN",
+            "middleName": "",
+            "lastName": "PHILLIPS",
+            "nationality": "CAN",
+            "dateOfBirth": "1991-06-21",
+            "documents": [
+                {
+                    "type": "passport",
+                    "identifier": "LE98742",
+                    "country": "CAN",
+                    "issueDate": "2017-03-21",
+                    "expirationDate": "2026-03-20"
+                }
+            ]
+        }
+    ],
+    "pets": [],
+    "remarks": [],
+    "customCodes": {
+        "key": "request-1"
+    }
+}
