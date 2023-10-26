@@ -5,6 +5,7 @@ jobs:
       - image: cypress/browsers:chrome67
     working_directory: ~/project
     steps:
+    
       - checkout
       # Install dependencies
       - run:
