@@ -1,26 +1,8 @@
 version: 2.1
-jobs:
-  build:
-    docker:
-      - image: cypress/browsers:chrome67
-    working_directory: ~/project
-    steps:
-    
-      - checkout
-      # Install dependencies
-      - run:
-          name: npm update
-          command: npm i -g
-      - run:
-          name: Install Dependencies
-          command: npm install --force
-      # Run Cypress tests
-      - run:
-          name: Run Cypress Tests
-          command: npm run cypress:run
-
+orbs:
+  cypress: cypress-io/cypress@3.1.4
 workflows:
-  version: 2
-  build-and-test:
+  build:
     jobs:
-      - build
+      - cypress/run:
+          start-command: 'npm run start'
